@@ -1,0 +1,33 @@
+<settings>
+ 
+  <language id="name.grzegorzkazulak.RubyOnRails">
+    <name>Ruby on Rails</name>
+    
+    <root-zone>sourcecode.rubyonrails</root-zone>
+    
+    <detectors>
+      <extension casesensitive="false">r</extension>
+      <extension casesensitive="false">rb</extension>
+      <extension casesensitive="false">ruby</extension>
+      <extension casesensitive="false">ru</extension>
+      <filename casesensitive="true">Rakefile</filename>
+    </detectors>
+    
+    
+    
+  </language>
+  
+  <meta>
+    <name>Ruby on Rails</name>
+    <description>A sugar that fully describes the Ruby language, and provides easy methods with which to work with Ruby source code</description>
+    <author>elliottcable</author>
+    <identifier>name.grzegorzkazulak.Sugar.Rails</identifier>
+    <version status="preview">0</version>
+    <download format="git">git://github.com/grzegorzkazulak/rubyonrails.sugar.git</download>
+    <url>http://github.com/grzegorzkazulak/rubyonrails.sugar</url>
+    <dependencies>
+      <dependency id="name.elliottcable.Sugar.Regex">Regex</dependency>
+    </dependencies>
+  </meta>
+  
+</settings>

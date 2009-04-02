@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@description Defines various syntax zones for ruby on rails files
+@author Grzegorz Kazulak <grzegorz.kazulak@gmail.com>
+@copyright The MIT License
+ 
+Copyright (c) 2009
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<syntax name="sourcecode.rubyonrails">
+  <zones>
+      <include collection="regex.tags" />
+	  <include collection="keyword.control.active_record" />
+	  <include collection="keyword.control.filters" />
+      <include syntax="sourcecode.ruby" />
+  </zones>
+  
+  
+  
+  <library>
+      <collection name="keyword.control.active_record">
+	      <zone name="keyword.control.active_record.relationships.has_many">
+	        <expression>\bhas_many\b</expression>
+	      </zone>
+		  <zone name="keyword.control.active_record.relationships.has_one">
+	        <expression>\bhas_one\b</expression>
+	      </zone>
+		  <zone name="keyword.control.active_record.relationships.belongs_to">
+	        <expression>\bbelongs_to\b</expression>
+	      </zone>
+		  <zone name="keyword.control.active_record.relationships.has_and_belongs_to_many">
+	        <expression>\bhas_and_belongs_to_many\b</expression>
+	      </zone>
+	    </collection>
+		<collection name="keyword.control.filters">
+			<zone name="keyword.control.filters.before_create">
+				<expression>\bbefore_create\b</expression>
+			</zone>
+		</collection>
+  </library>
+</syntax>
