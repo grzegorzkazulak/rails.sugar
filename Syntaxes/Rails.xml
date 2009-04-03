@@ -27,32 +27,17 @@ THE SOFTWARE.
 <syntax name="sourcecode.rubyonrails">
   <zones>
       <include collection="regex.tags" />
-	  <include collection="keyword.control.active_record" />
-	  <include collection="keyword.control.filters" />
+	  <include collection="latex.function.active_record" />
       <include syntax="sourcecode.ruby" />
   </zones>
   
   
   
   <library>
-      <collection name="keyword.control.active_record">
-	      <zone name="keyword.control.active_record.relationships.has_many">
-	        <expression>\bhas_many\b</expression>
+      <collection name="latex.function.active_record">
+	      <zone name="latex.function.active_record.support"> 
+				<expression>\b(named_scope|after_create|after_destroy|after_save|after_update|after_validation|after_validation_on_create|after_validation_on_update|before_create|before_destroy|before_save|before_update|before_validation|before_validation_on_create|before_validation_on_update|composed_of|belongs_to|has_one|has_many|has_and_belongs_to_many|validate|validate_on_create|validates_numericality_of|validate_on_update|validates_acceptance_of|validates_associated|validates_confirmation_of|validates_each|validates_format_of|validates_inclusion_of|validates_exclusion_of|validates_length_of|validates_presence_of|validates_size_of|validates_uniqueness_of|attr_protected|attr_accessible|attr_readonly)\b</expression>
 	      </zone>
-		  <zone name="keyword.control.active_record.relationships.has_one">
-	        <expression>\bhas_one\b</expression>
-	      </zone>
-		  <zone name="keyword.control.active_record.relationships.belongs_to">
-	        <expression>\bbelongs_to\b</expression>
-	      </zone>
-		  <zone name="keyword.control.active_record.relationships.has_and_belongs_to_many">
-	        <expression>\bhas_and_belongs_to_many\b</expression>
-	      </zone>
-	    </collection>
-		<collection name="keyword.control.filters">
-			<zone name="keyword.control.filters.before_create">
-				<expression>\bbefore_create\b</expression>
-			</zone>
-		</collection>
+	  </collection>
   </library>
 </syntax>
