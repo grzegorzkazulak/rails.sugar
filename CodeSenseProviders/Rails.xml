@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense>
+
+    <provider>
+        <selector>sourcecode.rubyonrails</selector>
+        <completions>com.rubyonrails.find</completions>
+        <complete-match>(find)</complete-match>
+    </provider>
+    <provider>
+        <selector>sourcecode.rubyonrails</selector>
+        <completions>com.rubyonrails.after</completions>
+        <complete-match>(after)</complete-match>
+    </provider>
+	<provider>
+        <selector>sourcecode.rubyonrails</selector>
+        <completions>com.rubyonrails.before</completions>
+        <complete-match>(before)</complete-match>
+    </provider>
+
+</codesense>

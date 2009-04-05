@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+    
+    <set name="com.rubyonrails.find">
+        <completion string="find_by_" />
+		<completion string="find_or_create_by_" />
+		<completion string="find_or_initialize_by_" />
+    </set>
+
+    <set name="com.rubyonrails.after">
+        <completion string="after_create" />
+		<completion string="after_destroy" />
+		<completion string="after_save" />
+		<completion string="after_update" />
+		<completion string="after_validation" />
+		<completion string="after_validation_on_create" />
+		<completion string="after_validation_on_update" />
+    </set>
+
+    <set name="com.rubyonrails.before">
+        <completion string="before_create" />
+		<completion string="before_destroy" />
+		<completion string="before_save" />
+		<completion string="before_update" />
+		<completion string="before_validation" />
+		<completion string="before_validation_on_create" />
+		<completion string="before_validation_on_update" />
+    </set>
+    
+</codesense>
