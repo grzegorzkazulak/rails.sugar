@@ -7,12 +7,12 @@
         <complete-match>(find)</complete-match>
     </provider>
     <provider>
-        <selector>sourcecode.rubyonrails</selector>
+        <selector>meta.rails.model</selector>
         <completions>com.rubyonrails.after</completions>
         <complete-match>(after)</complete-match>
     </provider>
 	<provider>
-        <selector>sourcecode.rubyonrails</selector>
+        <selector>meta.rails.model</selector>
         <completions>com.rubyonrails.before</completions>
         <complete-match>(before)</complete-match>
     </provider>

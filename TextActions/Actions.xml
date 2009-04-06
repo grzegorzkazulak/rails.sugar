@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<action-recipes>
+    <snippet id="tools.actions.text.Snippets.Rails.copy" category="tools.actions.text.Snippets.Rails">
+		<title>flash [...]</title>
+				<text><![CDATA[flash \[${1:\:notice}\] = "${2:Successfully created...}" ]]></text>
+		<text-trigger>flash</text-trigger>
+    </snippet>
+</action-recipes>
